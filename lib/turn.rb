@@ -22,6 +22,7 @@ end
 def move(board, index, char = "X")
   if valid_move?(board, index)
     board[index] = char
+  end
 end
 
 def position_taken?(board, position)
