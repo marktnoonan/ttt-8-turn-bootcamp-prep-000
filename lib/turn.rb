@@ -21,7 +21,6 @@ end
 def move(board, index, char = "X")
   if valid_move?(board, index)
     board[index] = char
-  end
   else
     turn(board)
   end
